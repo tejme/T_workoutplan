@@ -15,15 +15,21 @@
         h1 {
             color: #ffffff;
         }
-        h2 {
-            color: #cccccc;
-            margin-top: 30px;
-        }
-        ul {
+        details {
             background: #1f1f1f;
             padding: 15px;
+            margin-bottom: 15px;
             border-radius: 8px;
             box-shadow: 0 0 10px rgba(255, 255, 255, 0.05);
+        }
+        summary {
+            font-size: 1.2em;
+            font-weight: bold;
+            cursor: pointer;
+            color: #cccccc;
+        }
+        ul {
+            padding-left: 20px;
         }
         li {
             margin-bottom: 8px;
@@ -31,64 +37,78 @@
     </style>
 </head>
 <body>
-    <h1>Teja's Home Workout Plan</h1>
-    <p>This is your personalized weekly home workout plan. Follow each day's routine and track your progress!</p>
+    <h1>Teja's Interactive Home Workout Plan</h1>
+    <p>Click on each day to view your workout plan. Stay consistent and focused!</p>
 
-    <h2>Day 1 - Full Body Strength</h2>
-    <ul>
-        <li>Push-ups – 3 sets x 15 reps</li>
-        <li>Bodyweight Squats – 3 sets x 20 reps</li>
-        <li>Plank – 3 sets x 30 seconds</li>
-        <li>Glute Bridges – 3 sets x 15 reps</li>
-        <li>Mountain Climbers – 3 sets x 20 reps</li>
-    </ul>
+    <details>
+        <summary>Day 1 - Full Body Strength</summary>
+        <ul>
+            <li>Push-ups – 3 sets x 15 reps</li>
+            <li>Bodyweight Squats – 3 sets x 20 reps</li>
+            <li>Plank – 3 sets x 30 seconds</li>
+            <li>Glute Bridges – 3 sets x 15 reps</li>
+            <li>Mountain Climbers – 3 sets x 20 reps</li>
+        </ul>
+    </details>
 
-    <h2>Day 2 - Cardio & Core</h2>
-    <ul>
-        <li>Jumping Jacks – 3 sets x 30 seconds</li>
-        <li>High Knees – 3 sets x 30 seconds</li>
-        <li>Crunches – 3 sets x 20 reps</li>
-        <li>Leg Raises – 3 sets x 15 reps</li>
-        <li>Plank to Push-up – 3 sets x 10 reps</li>
-    </ul>
+    <details>
+        <summary>Day 2 - Cardio & Core</summary>
+        <ul>
+            <li>Jumping Jacks – 3 sets x 30 seconds</li>
+            <li>High Knees – 3 sets x 30 seconds</li>
+            <li>Crunches – 3 sets x 20 reps</li>
+            <li>Leg Raises – 3 sets x 15 reps</li>
+            <li>Plank to Push-up – 3 sets x 10 reps</li>
+        </ul>
+    </details>
 
-    <h2>Day 3 - Lower Body</h2>
-    <ul>
-        <li>Lunges – 3 sets x 12 reps each leg</li>
-        <li>Wall Sit – 3 sets x 30 seconds</li>
-        <li>Step-ups – 3 sets x 10 reps each leg</li>
-        <li>Calf Raises – 3 sets x 20 reps</li>
-        <li>Squat Pulses – 3 sets x 15 reps</li>
-    </ul>
+    <details>
+        <summary>Day 3 - Lower Body</summary>
+        <ul>
+            <li>Lunges – 3 sets x 12 reps each leg</li>
+            <li>Wall Sit – 3 sets x 30 seconds</li>
+            <li>Step-ups – 3 sets x 10 reps each leg</li>
+            <li>Calf Raises – 3 sets x 20 reps</li>
+            <li>Squat Pulses – 3 sets x 15 reps</li>
+        </ul>
+    </details>
 
-    <h2>Day 4 - Active Recovery</h2>
-    <ul>
-        <li>Light Yoga or Stretching – 20 mins</li>
-        <li>Walking – 30 mins</li>
-    </ul>
+    <details>
+        <summary>Day 4 - Active Recovery</summary>
+        <ul>
+            <li>Light Yoga or Stretching – 20 mins</li>
+            <li>Walking – 30 mins</li>
+        </ul>
+    </details>
 
-    <h2>Day 5 - Upper Body + Core</h2>
-    <ul>
-        <li>Incline Push-ups – 3 sets x 15 reps</li>
-        <li>Tricep Dips – 3 sets x 12 reps</li>
-        <li>Superman Hold – 3 sets x 30 seconds</li>
-        <li>Russian Twists – 3 sets x 20 reps</li>
-        <li>Side Plank – 2 sets x 30 seconds each side</li>
-    </ul>
+    <details>
+        <summary>Day 5 - Upper Body + Core</summary>
+        <ul>
+            <li>Incline Push-ups – 3 sets x 15 reps</li>
+            <li>Tricep Dips – 3 sets x 12 reps</li>
+            <li>Superman Hold – 3 sets x 30 seconds</li>
+            <li>Russian Twists – 3 sets x 20 reps</li>
+            <li>Side Plank – 2 sets x 30 seconds each side</li>
+        </ul>
+    </details>
 
-    <h2>Day 6 - HIIT Workout</h2>
-    <ul>
-        <li>20s Work / 10s Rest (Repeat 3x):</li>
-        <li>Jump Squats</li>
-        <li>Burpees</li>
-        <li>High Knees</li>
-        <li>Push-ups</li>
-        <li>Mountain Climbers</li>
-    </ul>
+    <details>
+        <summary>Day 6 - HIIT Workout</summary>
+        <ul>
+            <li>20s Work / 10s Rest (Repeat 3x):</li>
+            <li>Jump Squats</li>
+            <li>Burpees</li>
+            <li>High Knees</li>
+            <li>Push-ups</li>
+            <li>Mountain Climbers</li>
+        </ul>
+    </details>
 
-    <h2>Day 7 - Rest</h2>
-    <ul>
-        <li>Full rest or light stretching</li>
-    </ul>
+    <details>
+        <summary>Day 7 - Rest</summary>
+        <ul>
+            <li>Full rest or light stretching</li>
+        </ul>
+    </details>
 </body>
 </html>
